@@ -1,0 +1,101 @@
+<html>
+    <title>praktikum3registrationform</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2><center>Registration Form</center></h2>
+  <form class="form-horizontal" action="https://www.google.com/?hl=id">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="UserId">User ID:</label>
+      <div class="col-sm-10">
+        <input type="UserId" class="form-control" id="UserId" placeholder="Masukkan User ID (5-12 karakter)" name="UserId" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Masukkan password (7-12 karakter)" name="pwd" required>
+      </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="Nama">Nama:</label>
+        <div class="col-sm-10">          
+          <input type="Name" class="form-control" id="Nama" placeholder="Masukkan Nama (Alphabet only)" name="Nama" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="adr">Alamat:</label>
+        <div class="col-sm-10">          
+          <input type="Address" class="form-control" id="adr" placeholder="Masukkan Alamat" name="adr">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="ctr">Country:</label>
+        <div class="col-sm-10">
+            <select name="country" class="custom-select mb-3">
+                <option selected>Please select a country</option>
+                <option value="Amerika">Amerika</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="India">India</option>
+              </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="zip">ZIP Code:</label>
+        <div class="col-sm-10">          
+          <input type="ZipCode" class="form-control" id="zip" placeholder="Masukkan Zip Code (Numeric Only)" name="zip" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Email:</label>
+        <div class="col-sm-10">          
+          <input type="email" class="form-control" id="email" placeholder="Masukkan Email" name="email" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="sex">Sex:</label>
+        <div class="col-sm-10 custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio1" name="example1" required>
+            <label class="custom-control-label" for="customRadio1">Male</label>
+            <input type="radio" class="custom-control-input" id="customRadio1" name="example1" required>
+            <label class="custom-control-label" for="customRadio1">Female</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="lng">Language:</label>
+        <div class="col-sm-10 custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" required>
+            <label class="custom-control-label" for="customCheck">English</label>
+            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" required>
+            <label class="custom-control-label" for="customCheck">Non-English</label>
+        </div>
+    </div>
+    <div>
+        <label class="control-label col-sm-2" for="about">About:</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="5" id="about" placeholder="Masukkan Deskripsi singkat mengenai dirimu"></textarea>
+
+        </div>
+    </div>
+
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+
+    
+  </form>
+</div>
+
+</body>
+
+</html>
